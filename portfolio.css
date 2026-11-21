@@ -89,3 +89,13 @@ footer{ text-align:center; padding:25px; background:#05050c; color:#666; font-si
     .about-grid, .skill-grid, .project-grid{ grid-template-columns:1fr; }
     nav ul{ display:none; }
 }
+
+.socials a.social-btn{
+    padding:12px 28px; border:2px solid #7b7bff; border-radius:50px;
+    color:#7b7bff; font-weight:600; font-size:14px; text-decoration:none;
+    transition:0.3s;
+}
+.socials a.social-btn:hover{
+    background:#7b7bff; color:#fff; transform:translateY(-3px);
+    box-shadow:0 10px 25px rgba(123,123,255,0.4);
+}
